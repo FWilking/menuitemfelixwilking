@@ -1,6 +1,6 @@
 package felixwilking;
 
-public class trio implements menuitem {
+public abstract class trio implements menuitem {
     private final String sandwich;
     private final String salad;
     private final String drink;
@@ -10,4 +10,6 @@ public class trio implements menuitem {
         this.salad = salad;
         this.drink = drink;
     }
+
+    
 }
